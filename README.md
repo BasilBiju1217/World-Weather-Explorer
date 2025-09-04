@@ -30,9 +30,47 @@ Click on any location on the world map to view real-time weather details.
 ```bash
 git clone https://github.com/<your-username>/weather-worldmap.git
 cd weather-worldmap
+````
 
+### 2. Create Virtual Environment (optional but recommended)
 
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+```
 
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the App
+
+```bash
+python app.py
+```
+
+Then open 👉 `http://127.0.0.1:5000` in your browser.
+
+---
+
+## 📸 Screenshot
+
+(Add a screenshot of your app here)
+
+```markdown
+![Weather Worldmap Screenshot](screenshot.png)
+```
+
+---
+
+## 📂 Project Structure
+
+```
 weather-worldmap/
 │── app.py               # Flask backend
 │── requirements.txt     # Dependencies
@@ -42,3 +80,28 @@ weather-worldmap/
 │   ├── js/
 │   └── data/            # (optional) location datasets
 │── README.md            # Project documentation
+```
+
+---
+
+## 🎯 Future Enhancements
+
+* 🌎 Country/State/City dropdown selection
+* 🗺️ Highlight regions with climate overlays
+* 📊 More charts for temperature & rainfall trends
+* 📱 Mobile PWA support
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Basil Biju**
+
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – free to use, modify, and share.
+
+
